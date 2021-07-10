@@ -63,4 +63,9 @@ Ahora solo queda instalar los modulos python que usaremos en este proyecto el cu
 
 Ya todo deberia estar listo, si tuviste problema en la instalacion de requisitos borra la siguiente lista del file, 'pkg-resources==0.0.0'
 
+### 6. Archivos staticos
+Ahora haremos unos pequenos cambios al archivo **settings.py** y recolectaremos los archivos static en una nueva carpeta static para produccion, bien ahora entraremos al archivo **settings.py** y en la constante **ALLOWED_HOSTS=[]** agregaremos la ip de nuestro server en forma de string, Ahora crearemos una nueva constante **STATIC_ROOT = os.path.join(BASE_DIR, 'static')** no te olvides de importart el modulo **os** y por convencion crear la constante donded esta la otra constante static, bien ahora guardamos cambios
 
+Por ultimo ya podemos ejecutar el comando `python3 manage.py collectstatic` el cual recolectara los archivos staticos a nuestra carpeta static de produccion.
+
+Ahora ya podemos probar la web con el puerto que abrimos el 8000 `python3 manage.py runserver 0.0.0.0:8000` para probar la web usamos la ip del servidor y el puerto 8000 en un navegador, ejemplo `124.14.2.16:8000`, obviamente cambiando la ip por la nuestra
