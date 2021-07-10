@@ -29,3 +29,12 @@ y agregamos al usuario creado al grupo de sudo
 
 bien ahora salimos del ssh y volvemos a entrar como el usuario que acabamos de crear
 `ssh <usuario>@<ip>`
+
+### 3. Agregar llaves ssh 
+Agregaremos las llaves [ssh](https://github.com/Erick-vital/Tutoriales/blob/master/redes/protocolos/ssh.md) para poder entrar sin contrasena y de forma mas segura al servidor, en nuestra maquina local crearemos el directorio **.ssh** si es que no existe ya y hacemos lo mismo en nuestra maquina remota(el servidor)
+
+En nuestra maquina local ejecutamos el siguiente comando `ssh-keygen -b 4096` lo que creare dos llaves una publica y otra privada, la llave privada nos servira para desencriptar la llave publica, por lo que solo compartiremos la publica
+
+Ahora enviaremos la llave privada al servidor con el siguiente comando `scp ~/.ssh/id_rsa.pub <usuario>@<ip>:~/.ssh`
+
+ya podemos entrar al servidor desdes nuestra maquina local sin contrasena, puedes intentar reiniciar la terminal si tienens problemas para entrar 
