@@ -35,6 +35,6 @@ Agregaremos las llaves [ssh](https://github.com/Erick-vital/Tutoriales/blob/mast
 
 En nuestra maquina local ejecutamos el siguiente comando `ssh-keygen -b 4096` lo que creare dos llaves una publica y otra privada, la llave privada nos servira para desencriptar la llave publica, por lo que solo compartiremos la publica
 
-Ahora enviaremos la llave privada al servidor con el siguiente comando `scp ~/.ssh/id_rsa.pub <usuario>@<ip>:~/.ssh`
+Ahora enviaremos la llave privada al servidor con el siguiente comando `scp ~/.ssh/id_rsa.pub <usuario>@<ip>:~/.ssh`, Ahora solo debemos cambiar los permisos del directorio **.ssh** de nuestro servidor `sudo chmod 700 ~/.ssh/` y hacemos lo mismo con la llave publica que acabamos de enviar `sudo chmod 600 ~/.ssh/*`
 
 ya podemos entrar al servidor desdes nuestra maquina local sin contrasena, puedes intentar reiniciar la terminal si tienens problemas para entrar 
