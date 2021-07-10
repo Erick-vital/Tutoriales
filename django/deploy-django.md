@@ -38,3 +38,5 @@ En nuestra maquina local ejecutamos el siguiente comando `ssh-keygen -b 4096` lo
 Ahora enviaremos la llave privada al servidor con el siguiente comando `scp ~/.ssh/id_rsa.pub <usuario>@<ip>:~/.ssh`, Ahora solo debemos cambiar los permisos del directorio **.ssh** de nuestro servidor `sudo chmod 700 ~/.ssh/` y hacemos lo mismo con la llave publica que acabamos de enviar `sudo chmod 600 ~/.ssh/*`
 
 ya podemos entrar al servidor desdes nuestra maquina local sin contrasena, puedes intentar reiniciar la terminal si tienens problemas para entrar 
+
+Por ultimo es aconsejable desactivar poder logearte desde root, esto lo qutas en el archvo de configuracion `/etc/ssh/ssh_config`, debes desactivar la opcion `permitrootlogin` si esque no esta desactivada ya 
