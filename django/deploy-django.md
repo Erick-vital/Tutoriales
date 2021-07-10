@@ -52,3 +52,15 @@ Permitimos la conexion ssh `sudo ufw allow ssh` y usaremos el puerto 8000 para p
 
 Ahora solo queda prender el firewall `sudo ufw enable` y podemos corroborar con ` sudo ufw status`
 
+### 5. Clonar repositorio y crear entorno virtual python
+Desde github clonaremos nuestro repositorio a nuestra maquina remota y crearemos un nuevo entorno virtual python.
+
+`git clone <http//:repositorio>`.
+
+Para el entorno Instalamos primero **pip** `sudo apt install python3-pip` y el entorno virtual `pip install virtualenv` ahora creamos el entorno dentro de nuestro repositorio `virtualenv --python=/usr/bin/python3 venv`
+
+Ahora solo queda instalar los modulos python que usaremos en este proyecto el cual esta contenido en el file requisitos.txt que creamos previamente usando **pip freeze** > requisitos, ya dentro de nuestro entorno virtual instalamos los requisitos con **pip** `pip install -r requisitos.txt` 
+
+Ya todo deberia estar listo, si tuviste problema en la instalacion de requisitos borra la siguiente lista del file, 'pkg-resources==0.0.0'
+
+
