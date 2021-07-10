@@ -40,3 +40,15 @@ Ahora enviaremos la llave privada al servidor con el siguiente comando `scp ~/.s
 ya podemos entrar al servidor desdes nuestra maquina local sin contrasena, puedes intentar reiniciar la terminal si tienens problemas para entrar 
 
 Por ultimo es aconsejable desactivar poder logearte desde root, esto lo qutas en el archvo de configuracion `/etc/ssh/ssh_config`, debes desactivar la opcion `permitrootlogin` si esque no esta desactivada ya 
+
+### 4. Instalar firewall en nuestro servidor
+Como ultima medida de seguridad vamos a instalar y configurar de forma sencilla un firewall.
+
+Instalaremos el firewall 'ufw' `sudo apt install ufw`
+
+Permitiremos y negaremos las siguientes conexiones `sudo ufw default allow outgoing` y `sudo ufw default deny incoming`
+
+Permitimos la conexion ssh `sudo ufw allow ssh` y usaremos el puerto 8000 para probar nuestra web antes de permitir conexiones htttp `sudo ufw allow 8000`.
+
+Ahora solo queda prender el firewall `sudo ufw enable` y podemos corroborar con ` sudo ufw status`
+
