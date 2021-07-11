@@ -69,3 +69,8 @@ Ahora haremos unos pequenos cambios al archivo **settings.py** y recolectaremos 
 Por ultimo ya podemos ejecutar el comando `python3 manage.py collectstatic` el cual recolectara los archivos staticos a nuestra carpeta static de produccion.
 
 Ahora ya podemos probar la web con el puerto que abrimos el 8000 `python3 manage.py runserver 0.0.0.0:8000` para probar la web usamos la ip del servidor y el puerto 8000 en un navegador, ejemplo `124.14.2.16:8000`, obviamente cambiando la ip por la nuestra
+
+### 7. Apache2
+Toca instalar el servidor **apache2** en nuestra maquina remota el cual nos servira para mantener nuestra pagina web encendida sin nesecidad de hace "python3 manage.py runserver" cada vez para prender nuestra web
+
+Instala apache2 `sudo apt install apache2`, instala modulo de apache **wsgi** `sudo apt install libapache2-mod-wsgi-py3` este nos permite interactuar python con apache2
