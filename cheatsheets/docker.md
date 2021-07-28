@@ -2,6 +2,7 @@
 algunos comandos y pequenos pero importantes tutoriales sobre docker, para mas informacion sobre los conceptops de que es deocker visita [aqui](https://github.com/Erick-vital/Tutoriales/tree/master/linux/docker_conceptops)
 
 ## Instalar y usar docker en Arch o Manjaro
+Este tutorial esta basado en este de [aqui](https://linuxhint.com/install_start_docker_arch_linux/)
 primero actualizamos nuestro sistema de reposositorios
 ```
 sudo pacman -Syu
