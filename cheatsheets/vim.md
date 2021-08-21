@@ -5,7 +5,7 @@ para agregar nuevos files a una carpeta primero pulsa **m** sobre la carpte y de
 
 **C-Z-,** tecla espacial de emmet
 
-## brincar entre matching tags en html
+### brincar entre matching tags en html
 You can jump between tags using visual operators, in example:
 
     Place the cursor on the tag.
