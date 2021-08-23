@@ -10,3 +10,5 @@ head es un comando que nos permite ver la 10 primeras lineas de un archivo
 
 **20 primeras de un comando ls**   
 `head ls /lib/ | head -n 20
+
+la contra de head es tail
