@@ -1,6 +1,29 @@
 ## JAVASCRIPT
 Concepto y conocimientos aprendidos de JS
 
+## Asincrono
+El codigo de javascript es asincrono, osea que no es lineal y no espera a una ejecucion a ser terminanda para ejecutar la siguiente
+
+### Callbacks
+Para eso se inventaron las callbacks lo cual nos permite correr nuestras funcinoes de forma sincrona, ya que se genera un stack de funciones
+y una tiene que esperar a la otra para ser ejecutada.   
+
+En codigo una callback se representa simplemente como una funcion que usa como parametro y llama a otra funcion.
+```
+// Como vemos en el ejemplo la funcion "saludar" tiene que esperar a la funcion "entradausuario" para ser ejecutada
+function saludar(nombre) {
+  alert('Hola ' + nombre);
+}
+
+function procesarEntradaUsuario(callback) {
+  var nombre = prompt('Por favor ingresa tu nombre.');
+  callback(nombre);
+}
+
+procesarEntradaUsuario(saludar);
+```
+
+
 ## Closure
 Un closure simplemente es una funcion declarada dentro de otra funcion
 ```
