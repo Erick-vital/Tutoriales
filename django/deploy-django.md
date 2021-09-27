@@ -21,8 +21,10 @@ Ahora haremos lo mismo modificando el archivo **hosts** que se encuentra en /etc
 `vim /etc/hots`
 y debajo de localhost agregamos la ip del servidor y nuestro hostname que acabamos de asignar
 
-`127.0.0.1  localhost
-<ip-del-servidor> <nombre-del-host>`
+```
+127.0.0.1  localhost
+<ip-del-servidor> <nombre-del-host>
+```
 
 Ahora crearemos un nuevo usuario con el comando
 `adduser <nombre de usuario>`
