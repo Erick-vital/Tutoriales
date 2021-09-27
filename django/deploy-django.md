@@ -11,7 +11,9 @@ Una vez dentro debemos asegurarnos de actualizar nuestro linux con los comandos 
 
 ### 2. Cambiar el hostname y agregar usuarios nuevos
 lo primero que haremos sera cambiar el hostname o **nombre del equipo** con el siguietne comando 
-`hostnamectl set-hostname <nombre que asignaremos>`
+```
+hostnamectl set-hostname <nombre que asignaremos>
+```
 podemos verificar que el hostname este correcto con el comando:
 `hostname`
 
