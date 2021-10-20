@@ -25,3 +25,10 @@ from . import file1, file2, file3
 ```
 
 ### Archivo main.py
+
+## Entorno virtual virtualenv
+Usa el siguiente comando para crear un entorno virtual
+```
+python -m venv venv
+```
+el primer parametro es el nombre del entorno y el segundo la ubicaci
