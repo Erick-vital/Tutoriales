@@ -57,7 +57,11 @@ sudo apt install ufw
 
 Permitiremos y negaremos las siguientes conexiones 
 ```
-sudo ufw default allow outgoing` y `sudo ufw default deny incoming
+sudo ufw default allow outgoing 
+```
+y
+```
+sudo ufw default deny incoming
 ```
 
 Permitimos la conexion ssh `sudo ufw allow ssh` y usaremos el puerto 8000 para probar nuestra web antes de permitir conexiones htttp `sudo ufw allow 8000`.
