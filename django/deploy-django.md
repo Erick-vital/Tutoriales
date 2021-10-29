@@ -73,6 +73,12 @@ Desde github clonaremos nuestro repositorio a nuestra maquina remota y crearemos
 
 `git clone <http//:repositorio>`.
 
+Tambien puedes enviar el proyecto mediante **scp**   
+ejemplo   
+```
+scp -r ~/Documentos/Proyectos/Prisma erick@96.126.122.110:~/
+```
+
 Para el entorno Instalamos primero **pip** `sudo apt install python3-pip` y el entorno virtual `pip install virtualenv` ahora creamos el entorno dentro de nuestro repositorio `virtualenv --python=/usr/bin/python3 venv`
 
 Ahora solo queda instalar los modulos python que usaremos en este proyecto el cual esta contenido en el file requisitos.txt que creamos previamente usando **pip freeze** > requisitos, ya dentro de nuestro entorno virtual instalamos los requisitos con **pip** `pip install -r requisitos.txt` 
