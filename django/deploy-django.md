@@ -31,6 +31,8 @@ Ahora crearemos un nuevo usuario con el comando
 y agregamos al usuario creado al grupo de sudo
 `adduser <nombre de usuario> sudo` 
 
+`cat /etc/passwd` para ver todos los usuarios
+
 bien ahora salimos del ssh y volvemos a entrar como el usuario que acabamos de crear
 `ssh <usuario>@<ip>`
 
