@@ -50,9 +50,15 @@ Por ultimo es aconsejable desactivar poder logearte desde root, esto lo qutas en
 ### 4. Instalar firewall en nuestro servidor
 Como ultima medida de seguridad vamos a instalar y configurar de forma sencilla un firewall.
 
-Instalaremos el firewall 'ufw' `sudo apt install ufw`
+Instalaremos el firewall 'ufw' 
+```
+sudo apt install ufw
+```
 
-Permitiremos y negaremos las siguientes conexiones `sudo ufw default allow outgoing` y `sudo ufw default deny incoming`
+Permitiremos y negaremos las siguientes conexiones 
+```
+sudo ufw default allow outgoing` y `sudo ufw default deny incoming
+```
 
 Permitimos la conexion ssh `sudo ufw allow ssh` y usaremos el puerto 8000 para probar nuestra web antes de permitir conexiones htttp `sudo ufw allow 8000`.
 
