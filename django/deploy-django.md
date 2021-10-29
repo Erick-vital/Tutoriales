@@ -18,7 +18,7 @@ podemos verificar que el hostname este correcto con el comando:
 `hostname`
 
 Ahora haremos lo mismo modificando el archivo **hosts** que se encuentra en /etc/hosts
-`vim /etc/hots`
+`vim /etc/hosts`
 y debajo de localhost agregamos la ip del servidor y nuestro hostname que acabamos de asignar
 
 ```
