@@ -112,5 +112,7 @@ sudo apt install apache2
 ```
 
 instala modulo de apache **wsgi** 
-```sudo apt install libapache2-mod-wsgi-py3```
+```
+sudo apt install libapache2-mod-wsgi-py3
+```
 este nos permite interactuar python con apache2
