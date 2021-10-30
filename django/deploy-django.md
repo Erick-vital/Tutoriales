@@ -106,4 +106,11 @@ Ahora ya podemos probar la web con el puerto que abrimos el 8000 `python3 manage
 ### 7. Apache2
 Toca instalar el servidor **apache2** en nuestra maquina remota el cual nos servira para mantener nuestra pagina web encendida sin nesecidad de hace "python3 manage.py runserver" cada vez para prender nuestra web
 
-Instala apache2 `sudo apt install apache2`, instala modulo de apache **wsgi** `sudo apt install libapache2-mod-wsgi-py3` este nos permite interactuar python con apache2
+Instala apache2 
+```
+sudo apt install apache2
+```
+
+instala modulo de apache **wsgi** 
+```sudo apt install libapache2-mod-wsgi-py3```
+este nos permite interactuar python con apache2
