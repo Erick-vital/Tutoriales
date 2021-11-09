@@ -19,3 +19,17 @@ Declarar variable de forma corta, aqui no especificamos un tipo de dato por lo q
 i := 5
 ```
 
+### Declarar Constantes
+se declara una constante con la palabra reservada **const**    
+
+Declarar constante sin definir tipo
+```
+const pi = 3.14
+```
+
+Declarar constate definiendo tipado
+
+```
+const pi float32 = 3.14
+```
+
