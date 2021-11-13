@@ -1,7 +1,8 @@
 # arrays y slices
 
 ## arrays
-los arrays es una colecion de elementos en mememoria el cual todos sus elementos son de un tipo de dato    
+los arrays es una colecion de elementos en memoria el cual todos sus elementos son de un tipo de dato y ademas tienen
+un tama
 
 declarar arreglos
 ```
