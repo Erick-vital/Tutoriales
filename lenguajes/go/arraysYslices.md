@@ -2,7 +2,7 @@
 
 ## arrays
 los arrays es una colecion de elementos en memoria el cual todos sus elementos son de un tipo de dato y ademas tienen
-un tama
+un tamano definido
 
 declarar arreglos
 ```
