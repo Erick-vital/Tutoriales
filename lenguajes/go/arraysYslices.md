@@ -67,3 +67,23 @@ slice := make([]int, 3)
 slice = append(slice, 1, 2)
 ```
 
+## Range
+Recorrer estructuras de datos como slices y arrays usando **range**
+```
+// declaramos nuestra estructura
+var nombres []string = []string{"erick", "juan", "ruben"}
+// usamos range para recorrer la estructura
+// donde 'i' es el indice y 'nombre' el elemento
+for i, nombre := range nombres{
+ fmt.Println(i, nombre)
+}
+```
+si solo requerimos el indice o solo el elemento podemos cambiar el nombre de la variable que no usaremos a guion bajo _
+```
+//ejemplo
+for _, nombre := range nombres{
+ fmt.Println(nombre)
+ }
+ ```
+
+
