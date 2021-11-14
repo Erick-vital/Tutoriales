@@ -60,3 +60,10 @@ esta al igual que la forma anterior crea un array por debajo, pero en este metod
 
 
 ### agregando nuevos valores al slice
+agregar uno o mas elementos
+```
+slice := make([]int, 3)
+// con apppend especificamos el slice y los elementos a agregar
+slice = append(slice, 1, 2)
+```
+
