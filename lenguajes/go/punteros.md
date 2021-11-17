@@ -24,7 +24,7 @@ cada variable se compone de 4 elementos
   ```
   // primero declaramos la variable para el puntero
   var nombre string = "erick"
-  // usamos el mismo tipo de dato de la variable a apuntar con el operador '*'
+  // usamos el mismo tipo de dato que la variable a apuntar con el operador '*'
   var puntero *string = &nombre
   ```
   Para obtener el valor de la variable a la que apunta el puntero(**dereferenciar**), debemos usar el operador * antes de la variable puntero   
