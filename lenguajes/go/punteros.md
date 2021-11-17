@@ -13,9 +13,15 @@ cada variable se compone de 4 elementos
   <tr>
     <td>numero</td>
     <td>int</td>
-    <td>0xc1236</td>
+    <td>0xc001</td>
     <td>5</td>
   </tr>
+   <tr>  
+    <td>puntero</td>
+    <td>*int</td>
+    <td>0xc002</td>
+    <td>0Xc001</td>
+   </tr>
 </table>
   
   Para saber la direccion en memoria de una variable usamos el operador **&** antes de la misma
