@@ -21,3 +21,4 @@ func suma(a, b int) int{
 }
 ```
 
+En go una funcion puede y es comun que retorne multiples valores
