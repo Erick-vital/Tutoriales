@@ -39,9 +39,15 @@ func (Persona) correr() string {
   return "la persona esta corriendo"
 }
 ```
-ejemplo de un metodo que cambia el nombre de la persona   
+ejemplo de un metodo que cambia el nombre de la persona      
 ```
 // el self referencia a los atributos de la estructura, pero puede llevar cualquier nombre
-func (self Persona)
+// agregamos la estructura en forma de puntero con el operador *
+// agregamos nombre del metodo y su argumento nuevo nombre
+func (self *Persona) cambiar_nombre(nuevo_nombre string) {
+  self.nombre = nuevo_nombre
+}
 ```
 
+Siempre que queramos modificar atributos del objeto en un metodo debemos referenciar la estructura
+en forma de puntero dentro del metodo, para esto usamos el operador *
