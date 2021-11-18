@@ -51,3 +51,43 @@ func (self *Persona) cambiar_nombre(nuevo_nombre string) {
 
 Siempre que queramos modificar atributos del objeto en un metodo debemos referenciar la estructura
 en forma de puntero dentro del metodo, para esto usamos el operador *
+
+## Programacion orientada a objetos en Go
+En go existe debate sobre si es orientado a objetos o no, mientras tanto existen estructuras que funcionan
+de forma similar a las POO
+
+El siguiente texto fue copiado de [aqui](https://github.com/GoesToEleven/GolangTraining/blob/master/20_struct/00_object-oriented/notes.txt)
+
+Go is Object Oriented
+
+(1) Encapsulation   
+state ("fields")   
+behavior ("methods")   
+exported / un-exported
+
+(2) Reusability   
+inheritence ("embedded types")
+
+(3) Polymorphism   
+interfaces   
+
+(4) Overriding   
+"promotion"   
+
+//////////////
+Traditional OOP
+
+Classes
+-- data structure describing a type of object   
+-- you can then create "instances"/"objects" from the class/blue-print   
+-- classes hold both:   
+==== state / data / fields   
+==== behavior / methods   
+-- public / private   
+
+Inheritence   
+
+//////////////
+In Go:
+- you don't create classes, you create a type
+- you don't instantiate, you create a value of a type
