@@ -7,7 +7,8 @@ ya que el return y los argumentos son opcionales al igual que python
 **Declarar funciones:**
 ```
 //usamos la palabra reservada fun
-// una funcion donde especificamos el tipo de dato en el parametro y en el valor a devolver
+// una funcion donde especificamos el tipo de dato a devolver
+// el tipo de dato de los parametros tambien debe especificarse
 func suma(a, b int) int{
   return a +b
  }
