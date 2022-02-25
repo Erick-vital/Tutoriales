@@ -45,6 +45,37 @@ sudo usermod -aG docker <username>
 
 Recuerda que para que los cambios surtan efectos tienes que reiniciar la terminal o el computador 
 
-### Comandos de Internet
+### Comandos utiles
 cheatsheet util que encontre en internet
 https://dockerlabs.collabnix.com/docker/cheatsheet/
+
+Descarga una imagen por su nombre
+```
+docker pull <imagen_nombre>
+```
+
+Corre la imagen
+```
+docker run <imagen_nombre>
+```
+
+muestra todas las imagenes instaladas
+```
+docker images
+```
+
+muestra los contenedores corriendo actualmente
+```
+docker ps
+```
+
+muestra el historial de contenedore corridos
+```
+docker ps -a
+```
+
+### Corriendo imagen ubuntu de forma interactiva
+En este ejemplo se muestra como correr una imagen de ubuntu de forma interactiva llamando al comando bash
+```
+docker run -it ubuntu bash
+```
