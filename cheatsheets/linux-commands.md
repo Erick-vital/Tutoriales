@@ -12,3 +12,15 @@ head es un comando que nos permite ver la 10 primeras lineas de un archivo
 `head ls /lib/ | head -n 20
 
 la contra de head es tail
+
+### Ver usuarios en un sistema
+Para listas los usuarios en un sistema podermos usar los siguientes comandos
+```
+cat /etc/passwd
+```
+o tambien
+```
+getent passwd
+```
+
+
