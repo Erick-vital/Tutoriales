@@ -45,4 +45,6 @@ sudo usermod -aG docker <username>
 
 Recuerda que para que los cambios surtan efectos tienes que reiniciar la terminal o el computador 
 
-
+### Comandos de Internet
+cheatsheet util que encontre en internet
+https://dockerlabs.collabnix.com/docker/cheatsheet/
