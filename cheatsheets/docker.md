@@ -54,7 +54,7 @@ Descarga una imagen por su nombre
 docker pull <imagen_nombre>
 ```
 
-Corre la imagen
+Corre la imagen, tambien se puede correr mediente su "image id"
 ```
 docker run <imagen_nombre>
 ```
