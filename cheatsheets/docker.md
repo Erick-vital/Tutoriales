@@ -75,7 +75,7 @@ docker ps -a
 ```
 
 ### Corriendo imagen ubuntu de forma interactiva
-En este ejemplo se muestra como correr una imagen de ubuntu de forma interactiva llamando al comando bash
+En este ejemplo se muestra como correr una imagen de ubuntu de forma interactiva llamando al comando bash, al ejecutar la imagen es como un proceso
 ```
 docker run -it ubuntu bash
 ```
