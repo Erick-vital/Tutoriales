@@ -10,3 +10,6 @@ para quitar el fondo de una imgaen o imagen de logo, la maenra rapida es
 
 1. con la herramienta seleccion difusa dar click al fondo de la imagen a quitar
 2. pulsa la tecla delete o suprimir
+
+## Licuar en gimp
+esto lo hacer con la herramienta **warp transform** dentro de la toolbox
