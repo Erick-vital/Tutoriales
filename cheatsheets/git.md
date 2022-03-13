@@ -30,3 +30,5 @@ flushes out local conflicting files, requiring not only a merge-head or HEAD res
 ```
 git reset --hard FETCH_HEAD
 ```
+
+Ahora ya puedes hacer pull!
