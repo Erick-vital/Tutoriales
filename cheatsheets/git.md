@@ -20,3 +20,13 @@ Antes de agregar nuevos commits a tus repos recuerda que estos deben estar sincr
 1. `git fetch origin` Descarga los cambios remotos al local
 2. `git pull origin master` Fuciona los cambios descargados, parecido a un **merge**
 
+## Error al hacer pull
+a veces puedes tener errores de conflicto y no puedes hacer pull, recibiendo este errror    
+**error: Pulling is not possible because you have unmerged files**
+
+To solve
+flushes out local conflicting files, requiring not only a merge-head or HEAD reset, but also a -hard reset. The local workspace will not be flushed without the following hard. It just overwhelms the stage. 
+  
+```
+git reset --hard FETCH_HEAD
+```
