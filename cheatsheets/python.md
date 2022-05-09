@@ -26,7 +26,19 @@ from . import file1, file2, file3
 
 ### Archivo main.py
 
+## Instalar pip
+comando para pip
+```
+sudo apt install python3-pip
+```
+
+
 ## Entorno virtual virtualenv
+comando para instalar virutalenv
+```
+sudo pip3 install virtualenv
+```
+
 Usa el siguiente comando para crear un entorno virtual
 ```
 python -m venv venv
