@@ -47,4 +47,4 @@ Usa el siguiente comando para crear un entorno virtual
 ```
 python -m venv venv
 ```
-el primer parametro es el nombre del entorno y el segundo la ubicaci
+el primer parametro es el nombre del entorno y el segundo la ubicacion
