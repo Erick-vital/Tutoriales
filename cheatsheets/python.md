@@ -39,6 +39,10 @@ comando para instalar virutalenv
 sudo pip3 install virtualenv
 ```
 
+para instalaciones en ubuntu/debian instalas pip desde el apt
+```
+sudo apt install python3-venv
+```
 Usa el siguiente comando para crear un entorno virtual
 ```
 python -m venv venv
