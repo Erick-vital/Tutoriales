@@ -2,7 +2,7 @@
     
     el algoritmo de busqueda binaria tiene el proposito de buscar un numero
     dada una lista ordenada, y este a diferencia de la busqueda lineal es mucho
-    mas rapido
+    mas rapidooo
 """
 
 def binary_search(objetivo):
