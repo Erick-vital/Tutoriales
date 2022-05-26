@@ -13,3 +13,7 @@ You can jump between tags using visual operators, in example:
     Select the outer tag block by pressing a+t or i+t for inner tag block.
 
 Your cursor should jump forward to the matching closing html/xml tag. To jump backwards from closing tag, press o or O to jump to opposite tag.
+
+
+### Ignorar
+nuevo cambio para probar pull, borrar despues
