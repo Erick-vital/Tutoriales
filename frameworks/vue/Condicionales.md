@@ -14,3 +14,5 @@ Para condicionales usamos la directiva v-if dentro de una etiqueta
 <h1 v-else>Oh no 😢</h1>
  ```
  
+Para mas info de condicionales
+https://vuejs.org/guide/essentials/conditional.html#v-if-vs-v-show
