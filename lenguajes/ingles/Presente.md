@@ -62,7 +62,7 @@ i'm writing
 He is learning English   
 We are going to the cinema    
 
-
+tienes que agregar el geriundo **ing** al verbo
 ## Presente Perfecto
 El objetivo de este tiempo verbal es vincular el pasado con el presente. Sin embargo, la atención recae en el resultado, es decir, 
 lo que ha ocurrido o lo que no ha ocurrido.    
