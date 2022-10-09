@@ -37,6 +37,22 @@ El verbo **have**(tener) tambien cambia y este se combierte en **has**
 he has alot of money   
 she has a beutiful smile   
 
+### Presente simple negativo e interrogativo (do does)
+#### Does
+El does tanto el negativo como interrogativo se usa solo con la tercera persona del singular que son los que vimos **he, she, it**, en este caso ya no se agrega una s en la terminacion del verbo con el does basta.   
+ejemplo de negacion:   
+he doesn't play soccer (El no juega futbol)   
+
+ejemplo de interrogacion: (Cuando hacemos pregunta movemos el auxiliar **does** al principio del verbo)   
+does he plays soccer?: (el juego futbol?)
+
+#### Do
+Para el do usamos todos los pronombres faltantes **I, you, we, they**
+ejemplo negacion:   
+they don't eat meat
+
+ejemplo de interrogacion: (movemos el auxiliar al principio de la oracion)
+do they eat meat?
 
 ## Presente continuo 
 Se usa para describir una situacion que esta ocurriendo en este momento
