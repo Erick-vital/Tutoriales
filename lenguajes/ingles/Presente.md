@@ -51,8 +51,8 @@ Para el do usamos todos los pronombres faltantes **I, you, we, they**
 ejemplo negacion:   
 they don't eat meat
 
-ejemplo de interrogacion: (movemos el auxiliar al principio de la oracion)
-do they eat meat?
+ejemplo de interrogacion: (movemos el auxiliar al principio de la oracion)   
+do they eat meat?   
 
 ## Presente continuo 
 Se usa para describir una situacion que esta ocurriendo en este momento
