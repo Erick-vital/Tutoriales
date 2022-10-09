@@ -31,4 +31,23 @@ he did not close the door  (nota que ya no se agrega el ed al verbo)
 #### interrogativo
 para preguntar hacemos como siempre, movemos el auxiliar al inicio de la oracion   
 ejemplo:   
-did he close the door  (igualmente el verbo no cambia)    
+did he close the door  (igualmente el verbo no cambia)   
+
+## Pasado continuo
+se dice cuando algo estaba sucediendo.   
+al igual que el presente continuo usamos el verbo to-be, pero en pasado solo existen 2 verbos to-be
+el **was** y el **were** (era o estaba) para todos los **singular usamos was** I, he, she, it y para los **plural usamos were** you, we, they.   
+
+ejemplos:
+he **was** playing basketball
+they **were** here last night
+i **was** joking  (al igual que el presente continuo se agrega ing al verbo)
+
+### Forma negativa
+para negar usamos el **wasn't** o el **weren't**
+
+### Forma Interrogativa
+Agregamos el verbo to-be al principio de la oracion
+ejemplos:   
+was he playing soccer?  (estaba el jugando soccer?)
+were you sleeping ?  (estabas durmiendo?)
