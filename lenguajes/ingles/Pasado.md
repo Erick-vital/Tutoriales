@@ -12,7 +12,10 @@ y la tenemos que aprender para cada verbo, [aqui](https://www.esl-lounge.com/ref
 tienes una lista de algunos de los verbos irregulares mas comunes para que los aprendas
 
 ejemplo: (Verbo regular)   
-He clos**ed** the door  (se agrega ed al verbo)
+He clos**ed** the door  (se agrega ed al verbo)   
+**pronunciacion**
+para prununciar es como una t o d al final depende del verbo, los que terminan en vocal suenan como 
+d, para la t se usan mas osnidos sordos que terminen en p,k, ch, sh, h. Para mas informacin de como pronunciarlos preciona [aqui](https://www.aprendeinglessila.com/2012/12/el-pasado-de-los-verbos-regulares-pronunciacion/)
 
 ejeplo: (verbp irregular)
 they **ate** pizza   (el verbo cambia a su forma en pasado)
