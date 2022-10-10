@@ -30,6 +30,13 @@ ejemplo:
 at 7:00 i will be buying my groceries   
 
 una accion futura que sera interrumpida por otra.   
+ejemplo:   
 they will be cooking when you arrive  (Ellos estaran cocinando para cuando llegues)
 
+Acciones que comienzan en el presente y en el futuro seguiran desarollandose.   
+ejemplo:   
+she will be writing jokes for a good while
+
 Nota: Recuerda que para el continuo se agrega el **ing** al verbo
+
+Para mas informacion de cuando usar el futuro continuo visita [aqui](https://www.britishcouncil.org.mx/blog/future-continuous)
