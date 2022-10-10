@@ -15,10 +15,10 @@ i am going to buy some milk  (para el going to tenemos que usar el verbo to-be)
 
 #### Negativo
 ejemplos:   
-i will not become a world champion   (la forma corta es won't)
-i am not goint to buy milk
+i will not become a world champion   (la forma corta es won't)   
+i am not goint to buy milk   
 
 #### Interrogativo
 ejemlos:
-will i become a world champion?
+will i become a world champion?   
 am i going to buy milk?
