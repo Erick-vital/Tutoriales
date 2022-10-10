@@ -22,3 +22,14 @@ i am not goint to buy milk
 ejemlos:
 will i become a world champion?   
 am i going to buy milk?
+
+
+## Futuro continuo
+Se usa para una accion futura de un momento en especifico   
+ejemplo:   
+at 7:00 i will be buying my groceries   
+
+una accion futura que sera interrumpida por otra.   
+they will be cooking when you arrive  (Ellos estaran cocinando para cuando llegues)
+
+Nota: Recuerda que para el continuo se agrega el **ing** al verbo
