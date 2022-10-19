@@ -24,3 +24,7 @@ getent passwd
 ```
 
 
+## WSL
+pequeno truco para ver los archivos de wsl2 desde el explorador de archivos de windows
+solo tienes que poner la siguiente ruta \\wsl$\ y recuerda de tener una instancia de wsl2 corriendo para poder
+ver los archivos
