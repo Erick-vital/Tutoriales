@@ -62,12 +62,12 @@ i'm writing
 He is learning English   
 We are going to the cinema    
 
-tienes que agregar el geriundo **ing** al verbo
+tienes que agregar el geriundo **ing** al verbo   
 
-si el verbo termina en **e**, esta se elimina y se agrega ing al final
-ejemplo:
-dance -> dancing
-make -> making
+si el verbo termina en **e**, esta se elimina y se agrega ing al final   
+ejemplo:   
+dance -> dancing   
+make -> making   
 ## Presente Perfecto
 El objetivo de este tiempo verbal es vincular el pasado con el presente. Sin embargo, la atención recae en el resultado, es decir, 
 lo que ha ocurrido o lo que no ha ocurrido.    
