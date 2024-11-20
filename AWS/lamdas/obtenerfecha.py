@@ -8,34 +8,28 @@ logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
 def validate_date(date_str):
-    """
-    Valida si la fecha es válida y no está en el pasado
-    """
     try:
-        # Convertir el string de fecha ISO a objeto datetime
         date_obj = datetime.datetime.strptime(date_str, '%Y-%m-%d').date()
         today = datetime.date.today()
-        
-        # Verificar si la fecha es futura
         if date_obj < today:
+            logger.debug(f"Fecha inválida: {date_str} está en el pasado.")
             return {
                 'isValid': False,
                 'message': 'La fecha no puede estar en el pasado'
             }
+        logger.debug(f"Fecha válida: {date_str}")
         return {
             'isValid': True,
             'date': date_obj
         }
     except ValueError:
+        logger.debug(f"Formato de fecha inválido: {date_str}")
         return {
             'isValid': False,
             'message': 'Formato de fecha inválido'
         }
 
 def format_date_for_response(date_obj):
-    """
-    Formatea la fecha para la respuesta al usuario
-    """
     dias = {
         0: 'Lunes', 1: 'Martes', 2: 'Miércoles',
         3: 'Jueves', 4: 'Viernes', 5: 'Sábado', 6: 'Domingo'
@@ -54,6 +48,7 @@ def format_date_for_response(date_obj):
     return f"{dia_semana} {dia} de {mes} del {año}"
 
 def create_lex_response(intent_name, slots, message, dialog_action_type='Close', slot_to_elicit=None, state='Fulfilled'):
+    logger.debug(f"Creando respuesta con dialogActionType: {dialog_action_type}, slotToElicit: {slot_to_elicit}")
     response = {
         'sessionState': {
             'dialogAction': {
@@ -74,25 +69,33 @@ def create_lex_response(intent_name, slots, message, dialog_action_type='Close',
     if slot_to_elicit:
         response['sessionState']['dialogAction']['slotToElicit'] = slot_to_elicit
     
+    logger.debug(f"Respuesta de Lex: {json.dumps(response)}")
     return response
 
 def lambda_handler(event, context):
-    """
-    Función principal del Lambda handler
-    """
     try:
-        logger.debug('Event: %s', json.dumps(event))
+        logger.debug('Evento recibido: %s', json.dumps(event))
         
         # Obtener información del intent y slots
         intent = event['sessionState']['intent']
         intent_name = intent['name']
         slots = intent.get('slots', {})
         
+        logger.debug(f"Intent: {intent_name}, Slots: {json.dumps(slots)}")
+        
         # Si es un DialogCodeHook, procesar la fecha
         if event['invocationSource'] == 'DialogCodeHook':
-            # Obtener el valor del slot de fecha
+            logger.debug("InvocationSource es DialogCodeHook")
+            
+            # Obtener el valor del slot de fecha y confirmación
             fecha_slot = slots.get('fecha', {})
+            confirmacion_slot = slots.get('confirmation', {})
+            
+            logger.debug(f"Slot fecha: {json.dumps(fecha_slot)}, Slot confirmation: {json.dumps(confirmacion_slot)}")
+            
+            # Si no hay fecha, solicitarla
             if not fecha_slot or not fecha_slot.get('value'):
+                logger.debug("No se proporcionó fecha, solicitando al usuario.")
                 return create_lex_response(
                     intent_name,
                     slots,
@@ -102,9 +105,12 @@ def lambda_handler(event, context):
                 )
             
             date_str = fecha_slot['value'].get('interpretedValue')
+            logger.debug(f"Fecha proporcionada: {date_str}")
             validation_result = validate_date(date_str)
             
+            # Si la fecha no es válida, solicitar nueva fecha
             if not validation_result['isValid']:
+                logger.debug(f"Fecha no válida: {validation_result['message']}")
                 return create_lex_response(
                     intent_name,
                     slots,
@@ -113,15 +119,47 @@ def lambda_handler(event, context):
                     'fecha'
                 )
             
-            formatted_date = format_date_for_response(validation_result['date'])
-            return create_lex_response(
-                intent_name,
-                slots,
-                f'He registrado tu cita para el {formatted_date}. ¿Es esto correcto?',
-                'ConfirmIntent'
-            )
+            # Si la fecha es válida pero no hay confirmación, solicitarla
+            if not confirmacion_slot or not confirmacion_slot.get('value'):
+                formatted_date = format_date_for_response(validation_result['date'])
+                logger.debug(f"Solicitando confirmación para la fecha: {formatted_date}")
+                return create_lex_response(
+                    intent_name,
+                    slots,
+                    f'¿Confirmas que quieres agendar para el {formatted_date}? Por favor responde sí o no.',
+                    'ElicitSlot',
+                    'confirmation'
+                )
             
+            # Procesar la confirmación
+            confirmacion = confirmacion_slot['value'].get('interpretedValue', '').lower()
+            logger.debug(f"Confirmación proporcionada: {confirmacion}")
+            if confirmacion == 'no':
+                # Si el usuario dice no, limpiar la fecha y volver a preguntar
+                slots['fecha'] = None
+                slots['confirmation'] = None
+                logger.debug("El usuario no confirmó, solicitando nueva fecha.")
+                return create_lex_response(
+                    intent_name,
+                    slots,
+                    'De acuerdo, ¿para qué fecha prefieres agendar?',
+                    'ElicitSlot',
+                    'fecha'
+                )
+            elif confirmacion == 'si' or confirmacion == 'sí':
+                # Si el usuario confirma, proceder con el cierre
+                formatted_date = format_date_for_response(validation_result['date'])
+                logger.debug(f"El usuario confirmó, agendando cita para: {formatted_date}")
+                return create_lex_response(
+                    intent_name,
+                    slots,
+                    f'¡Perfecto! Tu cita ha sido agendada para el {formatted_date}.',
+                    'Close',
+                    state='Fulfilled'
+                )
+        
         # Si no es DialogCodeHook, cerrar el intent
+        logger.debug("InvocationSource no es DialogCodeHook, cerrando el intent.")
         return create_lex_response(
             intent_name,
             slots,
