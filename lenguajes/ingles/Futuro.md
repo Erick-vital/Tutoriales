@@ -39,4 +39,18 @@ she will be writing jokes for a good while
 
 Nota: Recuerda que para el continuo se agrega el **ing** al verbo
 
+## Futuro Perfecto 
+se usa para expresar acciones que habrán terminado antes de un momento específico en el futuro o antes de que ocurra otra acción futura
+
+se usa el **will have** para senalar que **tendra*
+
+la esctructura es asi:
+Fórmula: Sujeto + Auxiliar (will / ‘ll) + have + verbo past participle + complemento
+
+recuerda que el verbo usaremos su forma irregular en **pasado participio**
+
+ejemplos:
+She will have started to sing by 5 o’clock (Ella habrá empezado a cantar a las cinco en punto).
+By next month, I will have finished my master's thesis. (Para el próximo mes, habré terminado mi tesis de maestría.)
+
 Para mas informacion de cuando usar el futuro continuo visita [aqui](https://www.britishcouncil.org.mx/blog/future-continuous)
