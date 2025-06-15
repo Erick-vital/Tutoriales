@@ -42,7 +42,7 @@ Nota: Recuerda que para el continuo se agrega el **ing** al verbo
 ## Futuro Perfecto 
 se usa para expresar acciones que habrán terminado antes de un momento específico en el futuro o antes de que ocurra otra acción futura
 
-se usa el **will have** para senalar que **tendra*
+se usa el **will have** para senalar que **tendra**
 
 la esctructura es asi:
 Fórmula: Sujeto + Auxiliar (will / ‘ll) + have + verbo past participle + complemento
