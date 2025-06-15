@@ -74,7 +74,17 @@ lo que ha ocurrido o lo que no ha ocurrido.
 Son acciones o estados que comenzaron en algún momento del pasado y que continúan hasta el momento en que se habla. 
 Su estructura es la siguiente
 
-ejemplo:
-He has cried all day.    
-he has played    
-i have accepted    
+### Estructura:
+Afirmativa:    
+Sujeto + have/has + participio pasado
+* Ejemplo: "I have finished my homework" (He terminado mi tarea).
+
+Negativa:     
+Sujeto + haven't/hasn't + participio pasado.     
+* Ejemplo: "She hasn't eaten yet" (Ella no ha comido todavía).
+
+Interrogativa:    
+Have/Has + sujeto + participio pasado? 
+* Ejemplo: "Have you ever been to Spain?" (¿Has estado alguna vez en España?).
+
+    
