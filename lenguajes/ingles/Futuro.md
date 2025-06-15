@@ -9,19 +9,19 @@ will se usa para hablar de nuestros sueños o promesas cosas que pueden o no pas
 
 El going to se usa para hablar de planes a corto plazo y de intenciones que vamos a realizar, al usar el going to usamos tambien el verbo to-be
 
-ejemplos:   
-i will become a world champion   
-i am going to buy some milk  (para el going to tenemos que usar el verbo to-be)
+### Estructura:
+Afirmativa:    
+Sujeto + will + verbo en infinitivo (sin "to") + complemento.    
+* Ejemplo: "I will study for the exam tomorrow." (Estudiaré para el examen mañana.)
 
-#### Negativo
-ejemplos:   
-i will not become a world champion   (la forma corta es won't)   
-i am not goint to buy milk   
+Negativa:    
+Sujeto + will + not (o won't) + verbo en infinitivo (sin "to") + complemento    
+* Ejemplo: "I will not (won't) go to the party." (No iré a la fiesta.)
 
-#### Interrogativo
-ejemlos:
-will i become a world champion?   
-am i going to buy milk?
+Interrogativa:    
+Will + Sujeto + verbo en infinitivo (sin "to") + complemento? 
+* Ejemplo: "Will you help me with my homework?" (¿Me ayudarás con mi tarea?)
+
 
 
 ## Futuro continuo
