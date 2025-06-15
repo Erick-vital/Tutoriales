@@ -71,6 +71,7 @@ make -> making
 ## Presente Perfecto
 El objetivo de este tiempo verbal es vincular el pasado con el presente. Sin embargo, la atención recae en el resultado, es decir, 
 lo que ha ocurrido o lo que no ha ocurrido.    
+**has** se usa con el tercera persona singular *she, he it* y **have** con *I, you, we, they*    
 Son acciones o estados que comenzaron en algún momento del pasado y que continúan hasta el momento en que se habla. 
 Su estructura es la siguiente
 
