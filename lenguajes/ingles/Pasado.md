@@ -36,7 +36,10 @@ did he close the door  (igualmente el verbo no cambia)
 ## Pasado continuo
 se dice cuando algo estaba sucediendo.   
 al igual que el presente continuo usamos el verbo to-be, pero en pasado solo existen 2 verbos to-be
-el **was** y el **were** (era o estaba) para todos los **singular usamos was**, (I, he, she, it) y para los **plural usamos were**, (you, we, they).   
+el **was** y el **were** (era o estaba) para todos los **singular usamos was**, (I, he, she, it) y para los **plural usamos were**, (you, we, they).     
+
+### Estructura
+Sujeto + was / were + verbo en -ing (gerundio)
 
 ejemplos:
 he **was** playing basketball
