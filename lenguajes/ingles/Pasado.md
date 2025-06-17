@@ -51,3 +51,22 @@ Agregamos el verbo to-be al principio de la oracion
 ejemplos:   
 was he playing soccer?  (estaba el jugando soccer?)
 were you sleeping ?  (estabas durmiendo?)
+
+## Pasado Perfecto
+El pasado perfecto es un tiempo verbal que se utiliza para hablar de una acción que ocurrió antes de otra acción en el pasado
+se usa **had**    
+Had: Es la forma pasada del verbo "to have" y se usa con todos los sujetos, no cambia.
+
+### Estructura    
+Sujeto + had + participio pasado del verbo
+
+Ejemplos de estructura:
+* Afirmativa: I had finished my homework. (Yo había terminado mi tarea.)
+*   Negativa: She hadn't seen him before. (Ella no lo había visto antes.)        (didn't / did not)
+* Interrogativa: Had they left when you arrived? (¿Se habían ido ellos cuando llegaste?)
+
+El uso más importante del pasado perfecto es para indicar una secuencia de eventos en el pasado.
+
+a) Una acción que ocurrió antes de otra acción en el pasado:
+
+Este es el uso fundamental.
