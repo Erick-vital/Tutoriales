@@ -53,3 +53,15 @@ ejemplos:
 She will have started to sing by 5 o’clock (Ella habrá empezado a cantar a las cinco en punto).             
 By next month, I will have finished my master's thesis. (Para el próximo mes, habré terminado mi tesis de maestría.)    
 
+## Futuro Perfecto Continuo    
+ se usa para describir acciones que habrán estado en progreso durante un período de tiempo hasta un punto específico en el futuro
+Se forma con **will have been** más el gerundio del verbo principal (verbo en -ing). 
+
+### Estructura    
+* Afirmativa: Sujeto + will have been + verbo en -ing + complemento.
+* Negativa: Sujeto + will not (won't) have been + verbo en -ing + complemento.
+* Interrogativa: Will + sujeto + have been + verbo en -ing + complemento?
+
+ejemplo:    
+By next year, she will have been working at the company for five years." (Para el próximo año, ella habrá estado trabajando en la empresa durante cinco años). 
+
