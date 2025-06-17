@@ -69,4 +69,7 @@ El uso más importante del pasado perfecto es para indicar una secuencia de even
 
 a) Una acción que ocurrió antes de otra acción en el pasado:
 
-Este es el uso fundamental.
+Este es el uso fundamental.    
+Ejemplos:
+
+  * When I arrived at the station, the train had already left.
